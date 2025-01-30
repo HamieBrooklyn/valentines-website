@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+	cursor: url(assets/images/cursor-1.png), auto;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-height: 100vh;
+}
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+}
+
+.gradient-text{
+	background: linear-gradient(to top, #ff105f, #ff0095);
+	background-clip: text;
+	color: transparent;
+	font-weight: bold;
+	text-align: center;
+}
+.button:hover{
+	background: linear-gradient(to top, #ff10eb, #ea00ff);
+	cursor: url(assets/images/cursor-2.png), auto;
+}
+.intro-image{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.button-1{
+	padding: 5px;
+	margin: 10px;
+	
+	border: none;
+	border-radius: 7px;
+	background: linear-gradient(to top, #ff105f, #ff0095);
+	color: white;
+	font-size: 1.5em;
+}
+.heart{
+	position: fixed;
+	color: red;
+	animation: fall 5s linear forwards;
+}
+@keyframes fall{
+	from{
+		transform: translateY(-100vh);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(105vh);
+	}
+}
+.question-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.question-text{
+	font-size: 3em;
+	font-weight: bold;
+	color: #1a1a1a;
+	text-align: center;
+	margin-top: 17%;
+}
+.final-image{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#intro-text{
+	font-size: 3em;
+	font-weight: bold;
+	color: #1a1a1a;
+	text-align: center;
+	margin-top: 17%;
+}
+#subtext{
+	margin-top: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #888888;
+	text-align: center;
+}
+#continue{
+	margin: 30px;
+}
+#choose-yes{
+	background: linear-gradient(to top, #ff00dd, #ff6ff3);
+}
+#choose-yes:hover{
+	background: linear-gradient(to top, #ff6ff3, #ff00dd);
+}
+#final-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+#final-gif{
+	margin-top: auto;
+	width: 200px;
+	height: 200px;
+}
