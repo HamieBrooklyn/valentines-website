@@ -21,6 +21,7 @@ a{
 
 .body-container{
 	flex-direction: column;
+	height: 100%;
 }
 .gradient-text{
 	background: linear-gradient(to top, #ff105f, #ff0095);
