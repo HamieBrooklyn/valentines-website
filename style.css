@@ -6,7 +6,6 @@
 	cursor: url(assets/images/cursor-1.png), auto;
 }
 body{
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	max-height: 100vh;
@@ -20,6 +19,9 @@ a{
 	text-decoration: none;
 }
 
+.body-container{
+	flex-direction: column;
+}
 .gradient-text{
 	background: linear-gradient(to top, #ff105f, #ff0095);
 	background-clip: text;
@@ -36,7 +38,6 @@ a{
 	height: 300px;
 	object-fit: cover;
 	border-radius: 10px;
-	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -94,7 +95,7 @@ a{
 	font-weight: bold;
 	color: #1a1a1a;
 	text-align: center;
-	margin-top: 17%;
+	margin-top: 70px;
 }
 #subtext{
 	margin-top: 10px;

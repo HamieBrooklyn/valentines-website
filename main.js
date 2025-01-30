@@ -1,7 +1,7 @@
 var timesDenied = 0;
 
 function accepted() {
-	window.location.href = "valentines-website/page2.html";
+	window.location.href = "page2.html";
 }
 function denied() {
 	var questionContainer = document.getElementById("question-container-1");
@@ -47,6 +47,6 @@ function denied() {
 		chooseYes.style.padding = "10px";
 	}
 	else if (timesDenied == 5) {
-		window.location.href = "valentines-website/page2.html";
+		window.location.href = "page2.html";
 	}
 };
