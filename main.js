@@ -1,7 +1,7 @@
 var timesDenied = 0;
 
 function accepted() {
-	window.location.href = "/page2.html";
+	window.location.href = "page2.html";
 }
 function denied() {
 	var questionContainer = document.getElementById("question-container-1");
