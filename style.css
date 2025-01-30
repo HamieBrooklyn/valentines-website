@@ -5,10 +5,10 @@
 	font-family: monospace;
 	cursor: url(assets/images/cursor-1.png), auto;
 }
-body{
+html, body {
+    height: 100%;
 	justify-content: center;
 	align-items: center;
-	height: auto;
 }
 div{
 	display: flex;
